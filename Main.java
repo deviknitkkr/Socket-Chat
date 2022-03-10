@@ -10,9 +10,7 @@ import java.io.OutputStreamWriter;
 public class Main
 {
     public static void main(String ...ags) throws IOException{
-
-        float f=420.908808;
-        System.out.println(new Integer(f));
+        
         System.out.println("waiting for connections");
 
         ServerSocket ss= new ServerSocket(1234);
